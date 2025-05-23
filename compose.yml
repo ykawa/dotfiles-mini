@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  zsh-test:
+    build: .
+    init: true
+    tty: true
+    stdin_open: true
+    user: vscode
